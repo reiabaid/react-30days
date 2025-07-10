@@ -1,0 +1,18 @@
+.pixel-bg {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+  background-color: #ffccff;
+}
+.pixel-box {
+  background-color: #ff77aa;
+  border: 8px solid #000;
+  padding: 3rem;
+  width: 90%;
+  max-width: 500px;
+  margin: auto;
+  text-align: center;
+  font-family: 'Press Start 2P', cursive;
+  box-shadow: 0 0 0 8px #ffccff, 0 0 0 12px black;
+}

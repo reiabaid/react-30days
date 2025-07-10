@@ -1,0 +1,38 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body, #root {
+  height: 100%;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffccff;
+}
+.app-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh; /* Fills full screen */
+}
+.pixel-counter {
+  background-color: #ffe3f2;
+  border: 6px solid #ff69b4;
+  padding: 4rem;
+  border-radius: 20px;
+  box-shadow: 0 0 30px #ff69b4;
+  text-align: center;
+  max-width: 600px;
+  width: 90%;
+}
+.pixel-counter h1 {
+  font-size: 2.5rem;
+  margin-bottom: 2.5rem;
+  color: #d10073;
+}
+.buttons {
+  display: flex;
+  justify-content: center;
+  gap: 2rem;
+  margin-top: 2rem;
+}
