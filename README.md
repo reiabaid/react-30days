@@ -1,7 +1,7 @@
 # React in 30 days
 
 
-This repository contains a 30-day self-driven challenge to build 30 React mini-projects. The goal is to learn React deeply through hands-on practice — one project per day.
+This repository contains a 30-day self-driven challenge to build 30 React mini-projects. The goal is to learn React deeply through hands-on practice; one project per day.
 
 ##  Objective
 
@@ -76,4 +76,5 @@ This repository contains a 30-day self-driven challenge to build 30 React mini-p
 ##  Contact
 
 Feel free to fork this repo or follow along with your own challenge.  
-If you’re curious, want to collaborate, or just say hi — ping me at reiab1101@gmail.com or DM on GitHub!
+If you’re curious, want to collaborate, or just say hi. 
+ping me at reiab1101@gmail.com or DM on GitHub!
