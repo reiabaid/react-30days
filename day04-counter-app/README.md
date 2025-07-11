@@ -1,12 +1,39 @@
-# React + Vite
+# Day 04 - Counter App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A retro-styled pixel counter built with React and Vite, inspired by early 90s UI design. This project is part of my 30 Days of React challenge.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Pixel-style UI using `Press Start 2P` font from Google Fonts  
+- Responsive and centered layout  
+- `useState` for counter state management  
+- Prevents count from going below zero  
+- Includes reset functionality  
+- Flat-color, high-contrast pixel design
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## What I Learned
+
+- Implementing functional state updates with React hooks  
+- Conditional logic to enforce state constraints  
+- Pixel-style layout and theming with custom CSS  
+- Structuring React projects inside a Vite development environment  
+- Clean component architecture and reusable styling
+
+---
+
+## Tech Stack
+
+- React  
+- Vite  
+- CSS  
+- Google Fonts (`Press Start 2P`)
+
+---
+
+## Preview
+
+![image](https://github.com/user-attachments/assets/63348559-03ad-46d5-8e71-34d7f9540f5c)

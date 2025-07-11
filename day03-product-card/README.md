@@ -1,12 +1,32 @@
-# React + Vite
+# Day 03 - Product Card App
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+A simple, responsive product showcase component built using React and Vite. The component dynamically renders product cards using props and demonstrates basic React fundamentals including reusable components and props-based rendering.
 
-Currently, two official plugins are available:
+---
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+## Features
 
-## Expanding the ESLint configuration
+- Reusable `ProductCard` component
+- Props-based product rendering
+- Responsive card layout using flexbox
+- Styled with a pink pixel-inspired aesthetic
+- Modular folder structure following React conventions
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+---
+
+## What I Learned
+
+- How to create and use custom React components  
+- Passing and accessing props in functional components  
+- Component-based styling using scoped CSS files  
+- Project setup and development using Vite  
+- Handling image imports from a local `img/` folder
+
+---
+
+## Tech Stack
+
+- React  
+- Vite  
+- CSS (Custom styling)  
+- Google Fonts (`Press Start 2P`)
