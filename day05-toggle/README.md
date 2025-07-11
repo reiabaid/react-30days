@@ -1,12 +1,20 @@
-# React + Vite
+# Day 05 – Theme Toggle 
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+## Overview  
+This project is part of the 30 Days of React Challenge. It is a pixel-themed light/dark mode toggle app built with React and Vite. The interface uses retro fonts and a pink-themed light mode, contrasted with a grey-black dark mode.
 
-Currently, two official plugins are available:
+## Features
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+- Pixel-style design using `Press Start 2P` font  
+- Light mode: soft pink background  
+- Dark mode: grey-black matte background  
+- Full viewport layout with centered content  
+- Smooth transitions between modes  
+- Toggle button with hover effects
 
-## Expanding the ESLint configuration
+## Tech Stack
 
-If you are developing a production application, we recommend using TypeScript with type-aware lint rules enabled. Check out the [TS template](https://github.com/vitejs/vite/tree/main/packages/create-vite/template-react-ts) for information on how to integrate TypeScript and [`typescript-eslint`](https://typescript-eslint.io) in your project.
+- React (via Vite)
+- JSX
+- CSS3 (Flexbox, transitions)
+- Google Fonts (Press Start 2P)
