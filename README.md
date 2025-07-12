@@ -21,7 +21,7 @@ This repository contains a 30-day self-driven challenge to build 30 React mini-p
 | 02  | Profile Card             | Reusable profile component with props      | [x]     |
 | 03  | Product Card             | Showcase product with image + price        | [x]     |
 | 04  | Counter App              | Classic counter with useState              | [x]     |
-| 05  | Dark/Light Toggle        | Theme switcher using conditional rendering | [ ]     |
+| 05  | Dark/Light Toggle        | Theme switcher using conditional rendering | [x]     |
 | 06  | To-Do List               | Add, delete tasks                          | [ ]     |
 | 07  | Expense Tracker          | Track income/expenses, basic layout        | [ ]     |
 | 08  | Quote Generator          | API fetch + refresh button                 | [ ]     |
