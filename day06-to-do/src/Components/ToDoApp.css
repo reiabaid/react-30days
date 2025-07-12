@@ -1,0 +1,160 @@
+@import url('https://fonts.googleapis.com/css2?family=Press+Start+2P&display=swap');
+
+.todo-container {
+  font-family: 'Press Start 2P', cursive;
+  background-color: #fff0f6;
+  color: #222;
+  padding: 2rem;
+  max-width: 500px;
+  margin: 3rem auto;
+  border: 6px solid #ff8db2;
+  border-radius: 12px;
+  box-shadow: 10px 10px 0px #ff8db2;
+  text-align: center;
+}
+
+.input-section {
+  display: flex;
+  gap: 1rem;
+  margin-bottom: 1rem;
+}
+
+.input-section input {
+  flex: 1;
+  padding: 0.8rem;
+  font-size: 1rem;
+  border: 2px dashed #ff8db2;
+  border-radius: 6px;
+  background: #fff;
+}
+
+.input-section button {
+  padding: 0.8rem 1.2rem;
+  background-color: #ff70a6;
+  border: 2px solid #000;
+  color: #fff;
+  font-weight: bold;
+  font-size: 0.8rem;
+  cursor: pointer;
+}
+
+.task-list {
+  list-style: none;
+  padding: 0;
+  margin-top: 1rem;
+}
+
+.task-list li {
+  background: #ffe6ec;
+  padding: 0.8rem;
+  margin-bottom: 0.6rem;
+  border: 2px solid #ff8db2;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.task-list li span {
+  cursor: pointer;
+  flex: 1;
+  text-align: left;
+}
+
+.task-list li.done span {
+  text-decoration: line-through;
+  color: grey;
+}
+
+.task-list button {
+  background: #fff0f6;
+  border: none;
+  color: #ff70a6;
+  font-weight: bold;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+.progress-bar {
+  background: #ffe6ec;
+  height: 20px;
+  border: 2px solid #ff8db2;
+  border-radius: 4px;
+  margin: 1rem 0;
+  width: 100%;
+}
+
+.progress {
+  height: 100%;
+  background: #ff70a6;
+  width: 0%;
+}
+
+.end-day {
+  margin-top: 1rem;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  border: none;
+  cursor: pointer;
+  box-shadow: 5px 5px 0px #ff70a6;
+}
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-top: 1rem;
+}
+
+.new-day {
+  background: #ffb3c6;
+  color: #000;
+  border: 2px solid #000;
+  padding: 0.8rem;
+  font-size: 0.8rem;
+  cursor: pointer;
+  box-shadow: 4px 4px 0px #ff70a6;
+}
+
+.summary-modal {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: rgba(255, 240, 246, 0.9);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.summary-content {
+  background: #fff0f6;
+  border: 4px solid #ff70a6;
+  padding: 2rem;
+  text-align: center;
+  width: 300px;
+  box-shadow: 8px 8px 0px #ff8db2;
+}
+
+.summary-content h2 {
+  margin-bottom: 1rem;
+}
+
+.summary-content button {
+  margin-top: 1rem;
+  background: #000;
+  color: #fff;
+  padding: 0.8rem 1.2rem;
+  border: none;
+  cursor: pointer;
+  font-size: 0.8rem;
+}
+.todo-container h1 {
+  margin-bottom: 2rem; /* Increase spacing below the header */
+}
+.todo-container h1 {
+  font-size: 2rem;
+  color: #ff70a6;
+  text-shadow: 2px 2px 0px #ff8db2;
+}
