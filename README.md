@@ -22,7 +22,7 @@ This repository contains a 30-day self-driven challenge to build 30 React mini-p
 | 03  | Product Card             | Showcase product with image + price        | [x]     |
 | 04  | Counter App              | Classic counter with useState              | [x]     |
 | 05  | Dark/Light Toggle        | Theme switcher using conditional rendering | [x]     |
-| 06  | To-Do List               | Add, delete tasks                          | [ ]     |
+| 06  | To-Do List               | Add, delete tasks                          | [x]     |
 | 07  | Expense Tracker          | Track income/expenses, basic layout        | [ ]     |
 | 08  | Quote Generator          | API fetch + refresh button                 | [ ]     |
 | 09  | Dog Image Fetcher        | useEffect + Dog API                        | [ ]     |
