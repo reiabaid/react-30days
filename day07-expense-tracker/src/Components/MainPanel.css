@@ -1,0 +1,41 @@
+.main-panel {
+  flex: 1;
+  padding: 40px;
+  background-color: #ffe6eb;
+  height: 100vh;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.transaction-form {
+  display: flex;
+  gap: 10px;
+}
+
+.transaction-form input {
+  padding: 10px;
+  border: 2px solid #333;
+  background-color: #fff;
+}
+
+.transaction-form button {
+  padding: 10px;
+  border: 2px solid #333;
+  cursor: pointer;
+  background-color: #fff;
+}
+
+.transactions-list {
+  margin-top: 20px;
+  border-top: 2px dashed #333;
+  padding-top: 10px;
+}
+
+.transaction {
+  margin-bottom: 10px;
+}
+
+h1, h2 {
+  margin: 0;
+}
