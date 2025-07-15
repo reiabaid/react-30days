@@ -1,0 +1,109 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html, body {
+  height: 100%;
+  width: 100%;
+  font-family: 'Press Start 2P', cursive;
+  background-color: #ffe4f2;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.dog-container {
+  width: 90%;
+  max-width: 700px;
+  height: 90vh;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  padding: 50px;
+  background-color: #ffe4f2;
+  text-align: center;
+  border: 12px solid #d81b60;
+  border-radius: 20px;
+}
+
+.dog-container h1 {
+  color: #d81b60;
+  font-size: 36px;
+  margin-bottom: 40px;
+}
+
+.dog-container img {
+  width: 100%;
+  max-width: 500px;
+  height: auto;
+  border: 8px solid #d81b60;
+  border-radius: 10px;
+  margin-bottom: 40px;
+  background-color: #fff;
+  padding: 12px;
+}
+
+button {
+  padding: 20px 60px;
+  background-color: #d81b60;
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+  font-size: 18px;
+}
+
+button:hover {
+  background-color: #b7134b;
+}
+button:active {
+  background-color: #a00c3e;
+}
+.dog-fetcher-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
+  background-color: #fbeffb;
+}
+
+.dog-fetcher-container h1 {
+  font-size: 3rem;
+  margin-bottom: 2rem;
+}
+
+.dog-fetcher-container img {
+  max-width: 90%;
+  max-height: 400px;
+  object-fit: contain;
+  border: 8px solid #d17cc2;
+  padding: 10px;
+  background-color: #fff0f5;
+  box-shadow: 5px 5px 0px #000;
+  margin-bottom: 2rem;
+}
+
+.fetch-button {
+  padding: 12px 30px;
+  font-size: 1.5rem;
+  border: 3px solid #000;
+  background-color: #ffa7c4;
+  color: #000;
+  cursor: pointer;
+  box-shadow: 3px 3px 0px #000;
+  transition: transform 0.1s;
+}
+
+.fetch-button:hover {
+  transform: translate(2px, 2px);
+  box-shadow: 1px 1px 0px #000;
+}
+.fetch-button:active {
+  transform: translate(4px, 4px);
+  box-shadow: none;
+}
