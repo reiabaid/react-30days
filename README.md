@@ -25,7 +25,7 @@ This repository contains a 30-day self-driven challenge to build 30 React mini-p
 | 06  | To-Do List               | Add, delete tasks                          | [x]     |
 | 07  | Expense Tracker          | Track income/expenses, basic layout        | [x]     |
 | 08  | Quote Generator          | API fetch + refresh button                 | [x]     |
-| 09  | Dog Image Fetcher        | useEffect + Dog API                        | [ ]     |
+| 09  | Dog Image Fetcher        | useEffect + Dog API                        | [x]     |
 | 10  | Weather App              | Input + OpenWeather API integration        | [ ]     |
 | 11  | TV Show Search           | Dynamic search from TVMaze API             | [ ]     |
 | 12  | Multi-Page App           | React Router for navigation                | [ ]     |
