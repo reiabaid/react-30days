@@ -9,6 +9,14 @@ A simple weather application built using React and Vite. It allows users to inpu
 - Responsive layout
 - Clean and focused UI for better user experience
 
+## Concepts Practiced
+- React useState
+- React useEffect
+- API Fetching with fetch()
+- Environment Variables in Vite
+- Conditional Rendering
+- CSS Styling and Layout
+
 ## Technologies
 - React
 - Vite
