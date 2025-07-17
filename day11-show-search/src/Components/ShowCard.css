@@ -1,0 +1,42 @@
+.show-card {
+  background-color: #fff;
+  border: 2px solid #ff69b4;
+  padding: 1rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  text-align: center;
+  transition: transform 0.2s ease;
+}
+
+.show-card:hover {
+  transform: scale(1.05);
+}
+
+.show-card img {
+  width: 100%;
+  height: auto;
+  margin-bottom: 1rem;
+  border: 2px solid #ff69b4;
+}
+
+.show-card h2 {
+  font-size: 0.8rem;
+  color: #ff69b4;
+  margin: 0.5rem 0;
+}
+
+.show-card p {
+  font-size: 0.7rem;
+  color: #333;
+  margin-bottom: 0.5rem;
+}
+
+.more-btn {
+  background-color: #ff69b4;
+  color: #fff;
+  border: none;
+  padding: 0.3rem 0.8rem;
+  cursor: pointer;
+  font-family: 'Press Start 2P', cursive;
+}
