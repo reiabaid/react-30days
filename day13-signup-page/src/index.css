@@ -1,0 +1,22 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body, #root {
+  height: 100%;
+}
+
+body {
+  font-family: 'Courier New', Courier, monospace;
+  background-color: #ffdef0;
+}
+.auth-container .toggle-text {
+  margin-top: 1rem;
+  color: #d6427c;
+  cursor: pointer;
+}
+.auth-container .toggle-text:hover {
+  text-decoration: underline;
+}
