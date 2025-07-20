@@ -29,8 +29,8 @@ This repository contains a 30-day self-driven challenge to build 30 React mini-p
 | 10  | Weather App              | Input + OpenWeather API integration        | [x]     |
 | 11  | TV Show Search           | Dynamic search from TVMaze API             | [x]     |
 | 12  | Multi-Page App           | React Router for navigation                | [x]     |
-| 13  | Login/Signup Form        | Controlled inputs + form validation        | [ ]     |
-| 14  | Multi-Step Form          | Stepper logic with component splitting     | [ ]     |
+| 13  | Login/Signup Form        | Controlled inputs + form validation        | [x]     |
+| 14  | Multi-Step Form          | Stepper logic with component splitting     | [x]     |
 | 15  | Reusable Components      | Generic Card, Modal, Button                | [ ]     |
 | 16  | Product Search Filter    | Filter list by category/text input         | [ ]     |
 | 17  | Theme Switcher (Context) | Global theme using Context API             | [ ]     |
