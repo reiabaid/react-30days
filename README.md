@@ -28,7 +28,7 @@ This repository contains a 30-day self-driven challenge to build 30 React mini-p
 | 09  | Dog Image Fetcher        | useEffect + Dog API                        | [x]     |
 | 10  | Weather App              | Input + OpenWeather API integration        | [x]     |
 | 11  | TV Show Search           | Dynamic search from TVMaze API             | [x]     |
-| 12  | Multi-Page App           | React Router for navigation                | [ ]     |
+| 12  | Multi-Page App           | React Router for navigation                | [x]     |
 | 13  | Login/Signup Form        | Controlled inputs + form validation        | [ ]     |
 | 14  | Multi-Step Form          | Stepper logic with component splitting     | [ ]     |
 | 15  | Reusable Components      | Generic Card, Modal, Button                | [ ]     |
